@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  transfer_data_sockets:
+    image: transfer_data_sockets
+    build: .
+    ports:
+      - 9900:9900

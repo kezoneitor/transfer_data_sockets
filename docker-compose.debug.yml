@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  transfer_data_sockets:
+    image: transfer_data_sockets
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 9900:9900
